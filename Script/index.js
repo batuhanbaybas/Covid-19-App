@@ -54,7 +54,7 @@ function ChangeDom(event) {
       //Card Country Death People Data
       deaths.innerHTML = `<h5 class="card-title text-center text-white">${data.deaths.value}</h5>
 <h6 class="card-subtitle mb-2 text-center text-white">${value} Toplam Ölüm Sayısı </h6>`;
-      //Table Country Global Data
+      //Table Country Data
       body.innerHTML = `   
       <th scope="row">+</th>
       <td class ="bg-warning text-center">${data.confirmed.value}</td>
