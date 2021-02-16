@@ -59,11 +59,11 @@ function ChangeDom(event) {
       document.querySelector("#confirmed").innerHTML = confirmed;
       //Cart Country Recovered People Data
       recovered += `<h5 class="card-title text-center text-white">${data.recovered.value}</h5>
-<h6 class="card-subtitle mb-2 text-center text-white">${value} Toplam Hasta Sayısı  </h6>`;
+<h6 class="card-subtitle mb-2 text-center text-white">${value} Toplam İyilelen Sayısı  </h6>`;
       document.querySelector("#recovered").innerHTML = recovered;
       //Cart Country Death People Data
       deaths += `<h5 class="card-title text-center text-white">${data.deaths.value}</h5>
-<h6 class="card-subtitle mb-2 text-center text-white">${value} Toplam Hasta Sayısı </h6>`;
+<h6 class="card-subtitle mb-2 text-center text-white">${value} Toplam Ölüm Sayısı </h6>`;
       document.querySelector("#deaths").innerHTML = deaths;
       //Table Country Global Data
       body += `   
