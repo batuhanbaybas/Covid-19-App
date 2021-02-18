@@ -5,10 +5,12 @@ let recovered = document.querySelector("#recovered");
 let deaths = document.querySelector("#deaths");
 let body = document.querySelector("#body");
 let country = document.querySelector("#country");
+
+
+
 const fetchCountry = fetch(urlCountries).then((response) => {
   return response.json();
 });
-
 const fetchdata = fetch(url).then((response) => {
   return response.json();
 });
@@ -39,7 +41,7 @@ fetchCountry.then((data) => {
     country.appendChild(option);
   }
 });
-function ChangeDom(event) {
+ChangeDom =(event) => {
   var value = event.target.value;
   fetch(`${urlCountries}${value}`)
     .then((response) => {
